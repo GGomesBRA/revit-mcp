@@ -1,0 +1,29 @@
+{
+        // nível de checagem
+        "python.analysis.typeCheckingMode": "basic",
+
+        // onde ficam os seus .pyi locais - caminho absoluto
+        "python.analysis.stubPath": "C:\\Users\\m170488\\AppData\\Roaming\\pyRevit\\Extensions\\typings",
+    
+        // adicione múltiplos caminhos onde existem stubs / libs
+        "python.analysis.extraPaths": [
+            "C:\\Users\\m170488\\AppData\\Roaming\\pyRevit\\Extensions\\typings",
+            "C:\\Users\\m170488\\AppData\\Roaming\\pyRevit\\Extensions\\typings\\Revit",
+            "C:\\Users\\m170488\\AppData\\Roaming\\pyRevit\\Extensions\\typings\\pyRevitLabs",
+            "C:\\Users\\m170488\\AppData\\Roaming\\pyRevit\\Extensions\\typings\\pyrevit",
+            "C:\\Users\\m170488\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages",
+            "C:\\Users\\m170488\\AppData\\Roaming\\pyRevit-Master\\site-packages"
+            
+    
+        ],
+    
+        // configurações adicionais para melhor suporte a stubs
+        "python.analysis.autoImportCompletions": true,
+        "python.analysis.autoSearchPaths": true,
+        "python.analysis.diagnosticMode": "workspace",
+        "python.analysis.indexing": true,
+        "python.analysis.packageIndexDepths": [
+            {"name": "Revit", "depth": 10},
+            {"name": "pyRevitLabs", "depth": 10}
+        ] 
+}
