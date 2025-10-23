@@ -1,0 +1,80 @@
+### Python ###
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+.venv/
+
+### Django ###
+*.log
+*.pot
+*.pyc
+__pycache__
+local_settings.py
+
+.env
+db.sqlite3
+results.json
+base.db
+windows_10_cmake_Release_graphviz-install-8.1.0-win64.exe
+010-SAA-CRO-MC-001-GER.xlsx
+
+frontend/
+static/
+staticfiles/
+embeddings/
+.mypy_cache/
+
+# projesan-app/
+downloaded_pdfs/
+chromedriver-win64/
+acc-mcp/
+acc/
+backend/agile
+db_backup/
+gerencial/ged-parameters/
+scripts/
+media/
+
+###
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+projesan-app/node_modules
+projesan-app/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+projesan-app/coverage
+
+# next.js
+projesan-app/.next/
+projesan-app/out/
+
+# production
+projesan-app/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# env files (can opt-in for committing if needed)
+.env*
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
